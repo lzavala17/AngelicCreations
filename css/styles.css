@@ -2,10 +2,15 @@
 body {
   background-image: url("https://images-na.ssl-images-amazon.com/images/I/51Vk0QaKkKL._SX466_.jpg");
   background-position: center;
+  background-size: 100%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  padding-left: 400px;
+  padding-right: 400px;
 }
 
 /* Heading Styles */
-h6 {
+h1 {
   font-size: 12px;
   line-height: 1.6;
   font-family: "Calibri",sans-serif;
@@ -15,13 +20,23 @@ h6 {
   background-color: #452d0e;
   opacity: 0.87;
 }
-
+h2 {
+  text-align: right;
+}
+h3{
+  text-align: right;
+}
 /* Navigation Styles */
 nav {
   background-color: #8b162a;
   width: 300px;
   border: 2px solid #000000;
-}
+  text-align: center;
+  overflow: hidden;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -20px;
+  border-bottom: 4px solid #000000;
 
 ul {
   list-style-type: none;
