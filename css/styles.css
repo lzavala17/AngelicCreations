@@ -11,16 +11,19 @@ h6 {
   font-weight: lighter;
   color: white;
   text-align: left;
-  background-color: brown;
+  background-color: #452d0e;
 }
 
 /* Navigation Styles */
+nav {
+  background-color: #8b162a;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #8b162a;
 }
 
 li {
@@ -29,7 +32,7 @@ li {
 
 li a {
   display: inline-block;
-  color: b9992b;
+  color: #b9992b;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -37,6 +40,6 @@ li a {
 
 li a:hover {
   background-color: #8b162a;
-  color: ffffff;
+  color: #ffffff;
   opacity: 0.5;
 }
