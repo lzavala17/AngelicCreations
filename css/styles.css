@@ -7,7 +7,7 @@ body {
 /* Heading Styles */
 h6 {
   font-size: 12px;
-  line-height: inherit;
+  line-height: 1.6;
   font-family: "Calibri",sans-serif;
   font-weight: lighter;
   color: white;
@@ -19,6 +19,8 @@ h6 {
 /* Navigation Styles */
 nav {
   background-color: #8b162a;
+  width: 300px;
+  border: 2px solid #000000;
 }
 
 ul {
