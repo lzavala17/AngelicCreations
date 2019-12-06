@@ -1,0 +1,43 @@
+/* Body Styles */
+body {
+  background-image: url("background.jpg");
+}
+
+
+/* Heading Styles */
+h6 {
+  font-size: 20px;
+  color: ffffff;
+  text-align: left;
+}
+
+header.img {
+float: center;
+}
+
+/* Navigation Styles */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8b162a;
+}
+
+li {
+  float: center;
+}
+
+li a {
+  display: inline-block;
+  color: b9992b;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #8b162a;
+  color: ffffff;
+  opacity: 0.5;
+}
