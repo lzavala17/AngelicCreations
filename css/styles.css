@@ -5,37 +5,46 @@ body {
 }
 
 /* Heading Styles */
-h6 {
-  font-size: 10px;
-  font-family: "Calibri",sans-serif;
-  color: white;
-  text-align: left;
-  background-color: #452d0e;
+#header{
+    background: #000;
 }
-
-/* Navigation Styles */
-nav.ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #8b162a;
+.company-logo img{
+    max-width: 240px;
+    margin:  -5px auto 20px auto;
 }
-
-nav.li {
-  float: center;
+.header-nav{
+    background: #ef486c;
 }
-
-nav.li a {
-  display: inline-block;
-  color: b9992b;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+/* NAV LINK TEXT COLOR AND STYLE */
+.nav-toggle i,
+.nav-item,
+.nav-show,
+.nav-hide,
+.nav-itemText,
+.nav-item--subnav{
+    color: #fff;
 }
-
-nav.li a:hover {
-  background-color: #8b162a;
-  color: ffffff;
-  opacity: 0.5;
+.nav-itemText{
+    font-size: 13px;
+}
+.header-cart{
+    margin-top: 100px;
+}
+.information-heading span,
+.my-account-button-text{
+    color: #fff;
+}
+.infoHeading-additional-address--name.additional-address-heavenly-floral-designs-express,
+.infoHeading-additional-address--address.additional-address-heavenly-floral-designs-express,
+.infoHeading-additional-address--phone.additional-address-heavenly-floral-designs-express {
+    position: relative;
+    right: -215%;
+    top: -100px;
+    text-align: right;
+}
+#header .header-cart .cart_button{
+    background: #ef486c;
+}
+.cart_button i{
+    color: #000;
 }
