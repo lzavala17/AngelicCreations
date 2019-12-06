@@ -1,8 +1,8 @@
 /* Body Styles */
 body {
   background-image: url("https://images-na.ssl-images-amazon.com/images/I/51Vk0QaKkKL._SX466_.jpg");
+  background-position: center;
 }
-
 
 /* Heading Styles */
 h6 {
@@ -10,6 +10,7 @@ h6 {
   font-family: "Calibri",sans-serif;
   color: white;
   text-align: left;
+  background-color: #452d0e, hsl(80, 30%, 51%);
 }
 
 header.img {
