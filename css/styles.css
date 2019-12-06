@@ -13,12 +13,8 @@ h6 {
   background-color: #452d0e;
 }
 
-header.img {
-float: center;
-}
-
 /* Navigation Styles */
-ul {
+nav.ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -26,11 +22,11 @@ ul {
   background-color: #8b162a;
 }
 
-li {
+nav.li {
   float: center;
 }
 
-li a {
+nav.li a {
   display: inline-block;
   color: b9992b;
   text-align: center;
@@ -38,7 +34,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+nav.li a:hover {
   background-color: #8b162a;
   color: ffffff;
   opacity: 0.5;
