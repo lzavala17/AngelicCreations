@@ -7,6 +7,7 @@ body {
 /* Heading Styles */
 h6 {
   font-size: 12px;
+  text-size-adjust: inherit;
   font-family: "Calibri",sans-serif;
   font-weight: lighter;
   color: white;
