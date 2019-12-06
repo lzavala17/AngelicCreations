@@ -7,13 +7,13 @@ body {
 /* Heading Styles */
 h6 {
   font-size: 12px;
-  text-size-adjust: inherit;
+  line-height: inherit;
   font-family: "Calibri",sans-serif;
   font-weight: lighter;
   color: white;
   text-align: left;
   background-color: #452d0e;
-  opacity: 0.5;
+  opacity: 0.87;
 }
 
 /* Navigation Styles */
