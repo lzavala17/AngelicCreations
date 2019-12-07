@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <title>Angelic Creations</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="hwstyles.css">
   </head>
   <body>
     <header>
@@ -15,9 +15,8 @@
       </ul>
 	  </div>
 	<div class="logo"><img src="images/logo.jpg" alt="Logo" style="width:200px;height:200px;border:0"></div>
-    <div class="cart"> MY ACCOUNT <a href="#"><i class="fas fa-shopping-cart"><img src="images/cart.jpg" alt="CART"></i></a></div>
+    <div class="cart"> MY ACCOUNT <a href="#"><i class="fas fa-shopping-cart"><img src="cart.jpg" alt="CART"></i></a></div>
     </header>
-    <section>
     <nav>
       <ul style="list-style-type:none;">
         <li><a href="#">HOME</a>
@@ -25,33 +24,114 @@
             <a href="#">OCCASIONS</a>
             <a href="#">ABOUT US</a>
             <a href="#">CONTACT US</a>
+			<div class="search-container">
+			<form action="/action_page.php">
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit" style="width:5px;height:5px"><i class="fa fa-search"></i></button>
+			</form>
             </li>
       </ul>
-	  <form action="/action_page.php">
-              <input type="text" placeholder="Search.." name="search">
-              <button type="submit"><i class="fa fa-search"></i></button>
-      </form>
     </nav>
-      <h3>Browse Designs</h3>
-        <table style="width:100%" text-align="left">
+	<div class="slideshow-container">
+
+	<div class="mySlides fade">
+	<img src="images/flowers.png" alt="Yellow Bouquet" style="width:800px;height:400px;border:2">
+	<div class="text">Mix A</div>
+	</div>
+
+	<div class="mySlides fade">
+  <img src="images/flowers2.jpg" alt="Puppy Bouquet" style="width:800px;height:400px;border:2">
+  <div class="text">Mix B</div>
+	</div>
+
+	<div class="mySlides fade">
+  <img src="images/funeral.jpg" alt="Funeral Set" style="width:800px;height:400px;border:2">
+  <div class="text">Mix C</div>
+	</div>
+
+	</div>
+	<div style="text-align:center">
+	<span class="dot"></span>
+	<span class="dot"></span>
+	<span class="dot"></span>
+	</div>
+
+	<script>
+	var slideIndex = 0;
+	showSlides();
+
+	function showSlides() {
+	var i;
+	var slides = document.getElementsByClassName("mySlides");
+	var dots = document.getElementsByClassName("dot");
+	for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+	}
+	slideIndex++;
+	if (slideIndex > slides.length) {slideIndex = 1}
+	for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+	}
+	slides[slideIndex-1].style.display = "block";
+	dots[slideIndex-1].className += " active";
+	setTimeout(showSlides, 2000);
+	}
+	</script>
+
+      <h3>BROWSE DESIGNS</h3>
+	  <section>
+        <table style="width:100%" text-align="center">
           <tr>
-            <td><img src="images/flowers.png" alt="Yellow Bouquet" style="width:200px;height:200px;border:2"></td>
-            <td><img src="images/flowers2.jpg" alt="Puppy Bouquet" style="width:200px;height:200px;border:2"></td>
-            <td><img src="images/funeral.jpg" alt="Funeral Set" style="width:200px;height:200px;border:2"></td>
+            <td><img src="images/flowers.png" alt="Yellow Bouquet" style="width:200px;height:200px;border:2px solid white"></td>
+            <td><img src="images/flowers2.jpg" alt="Puppy Bouquet" style="width:200px;height:200px;border:2px solid white"></td>
+            <td><img src="images/funeral.jpg" alt="Funeral Set" style="width:200px;height:200px;border:2px solid white"></td>
           </tr>
           <tr>
-            <td>Yellow Bouquet</td>
-            <td>Puppy Dog Bouquet</td>
-            <td>Funeral Bouquet Set</td>
+            <td><p style="width:200px;height:25px;font-style:italic"><b>YELLOW BOUQUET</b></p></td>
+            <td><p style="width:200px;height:25px;font-style:italic"><b>PUPPY DOG BOUQUET</b></p></td>
+            <td><p style="width:200px;height:25px;font-style:italic"><b>FUNERAL BOUQUET SET</b></p></td>
           </tr>
           <tr>
-            <td>$30.00</td>
-            <td>$30.00</td>
-            <td>$30.00</td>
+            <td><p style="width:200px;height:25px">$30.00</p></td>
+            <td><p style="width:200px;height:25px">$30.00</p></td>
+            <td><p style="width:200px;height:25px">$30.00</p></td>
+          </tr>
+		  <tr>
+            <td><img src="images/flowers.png" alt="Yellow Bouquet" style="width:200px;height:200px;border:2px solid white;margin-top:30px"></td>
+            <td><img src="images/flowers2.jpg" alt="Puppy Bouquet" style="width:200px;height:200px;border:2px solid white;margin-top:30px"></td>
+            <td><img src="images/funeral.jpg" alt="Funeral Set" style="width:200px;height:200px;border:2px solid white;margin-top:30px"></td>
+          </tr>
+          <tr>
+            <td><p style="width:200px;height:25px;font-style:italic"><b>YELLOW BOUQUET</b></p></td>
+            <td><p style="width:200px;height:25px;font-style:italic"><b>PUPPY DOG BOUQUET</b></p></td>
+            <td><p style="width:200px;height:25px;font-style:italic"><b>FUNERAL BOUQUET SET</b></p></td>
+          </tr>
+          <tr>
+            <td><p style="width:200px;height:25px">$30.00</p></td>
+            <td><p style="width:200px;height:25px">$30.00</p></td>
+            <td><p style="width:200px;height:25px">$30.00</p></td>
+          </tr>
+		  <tr>
+            <td><img src="images/flowers.png" alt="Yellow Bouquet" style="width:200px;height:200px;border:2px solid white;margin-top:30px"></td>
+            <td><img src="images/flowers2.jpg" alt="Puppy Bouquet" style="width:200px;height:200px;border:2px solid white;margin-top:30px"></td>
+            <td><img src="images/funeral.jpg" alt="Funeral Set" style="width:200px;height:200px;border:2px solid white;margin-top:30px"></td>
+          </tr>
+          <tr>
+            <td><p style="width:200px;height:25px;font-style:italic"><b>YELLOW BOUQUET</b></p></td>
+            <td><p style="width:200px;height:25px;font-style:italic"><b>PUPPY DOG BOUQUET</b></p></td>
+            <td><p style="width:200px;height:25px;font-style:italic"><b>FUNERAL BOUQUET SET</b></p></td>
+          </tr>
+          <tr>
+            <td><p style="width:200px;height:25px">$30.00</p></td>
+            <td><p style="width:200px;height:25px">$30.00</p></td>
+            <td><p style="width:200px;height:25px">$30.00</p></td>
           </tr>
         </table>
-      <hr>
-        <p>We are a small family operated business since 2011. We take a great deal of
+		<br>
+        <hr>
+        <div class="about">
+		<h2>ABOUT US</h2>
+		<p>We are a small family operated business since 2011. We take a great deal of
         pride in our work. We believe that everyone should be able to afford beautiful
         flowers on a tight budget. We are dedicated to our customers and do our
         very best to fulfill your every floral needs. I also am available as your
@@ -62,40 +142,39 @@
         Every event is different and my goal is to help envision what you  are looking
         to accomplish and make it happen, at a reasonable cost. Let me help you, I'm
         just a phone call away.</p>
-      <h3>Products</h3>
+      <h4>Products</h4>
         <p>Fresh/Artificial Flowers, Decorations, Homecoming/Spirit Items.</p>
         <br>
-      <h3>Services</h3>
+      <h4>Services</h4>
         <p>Wedding, Party Planning, Birthdays, Funerals, Anniversary's, Mothers Day,
         Valentines Day, Graduations, New Baby, Get Well Soon, Just Because and
         much more.</p>
+		</div>
         <br><br>
-      <iframe src="https://www.google.com/maps/@29.4829745,-98.5529072,18.88z"></iframe>
+		<h2>LOCATION</h2>
+      <h5><iframe src="https://www.google.com/maps/@29.4829745,-98.5529072,18.88z" style="width:825px"></iframe></h5>
     </section>
-
     <footer>
         <form action="/action_page.php">
           Name:<br>
-          <input type="text" name="name">
+          <input type="text" name="name" style="width:200px;height:25px;border:0">
           <br>
           Email:<br>
-          <input type="text" name="email">
+          <input type="text" name="email" style="width:200px;height:25px;border:0">
           <br>
           Phone Number:<br>
-          <input type="text" name="phonenumber">
+          <input type="text" name="phonenumber" style="height:25; width:200;border:0">
           <br>
           Date:<br>
-          <input type="text" name="date">
+          <input type="text" name="date" style="width:200px;height:25px;border:0">
           <br>
           Comments/Request:<br>
-          <input type="text" name="comments">
+          <input type="text" name="comments" style="width:400px;height:100px;border:0">
           <br><br>
           <input type="submit" value="Submit">
         </form>
         <br><br>
-        <p> <a href="facebook.com"><img src="images/facebook.jpg" alt="Facebook" style="width:42px;height:42px;border:0"> Facebook</a>
-        <br><br>
-        <a href="google.com"><img src="images/google.png" alt="Google" style="width:42px;height:42px;border:0"> Google</a>
+        <p> <a href="facebook.com"><img src="images/facebook.jpg" alt="Facebook" style="width:42px;height:42px;border:0"> FACEBOOK</a>      <a href="google.com"><img src="images/google.png" alt="Google" style="width:42px;height:42px;border:0"> GOOGLE</a>
         </p>
     </footer>
 
