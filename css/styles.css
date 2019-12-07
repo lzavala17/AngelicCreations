@@ -22,8 +22,6 @@ header {
   font-weight: lighter;
   color: #ffffff;
   text-align: left;
-
-
 }
 .cart {
   text-align: right;
@@ -32,7 +30,6 @@ header {
   font-size: 18px;
   font-family: "Calibri",sans-serif;
   opacity: 0.87;
-
 }
 i img {
 	width:25px;
@@ -43,8 +40,8 @@ i img {
 .logo {
 	text-align: center;
 	margin: -84px 0px -32px 0px;
-
 }
+
 /* Navigation Styles */
 
 nav {
@@ -67,11 +64,11 @@ position: sticky;
 }
 li a:hover {
   color: white;
-
 }
 .search-container {
 padding: 10px 85px 0px 10px;
 }
+
 /* Slideshow Styles */
 .slideshow-container {
   max-width: 1000px;
@@ -80,7 +77,6 @@ padding: 10px 85px 0px 10px;
   margin-left: 425px;
   width: 1000px;
 }
-
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -114,6 +110,7 @@ padding: 10px 85px 0px 10px;
   animation-name: fade;
   animation-duration: 3.5s;
 }
+
 /* Section Styles */
 h2{
 	color:white;
@@ -186,5 +183,4 @@ a {
 	color: b9992b;
 	font-weight: bold;
 	text-decoration:none;
-
 }
