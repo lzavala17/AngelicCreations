@@ -68,6 +68,12 @@ li a:hover {
 .search-container {
 padding: 10px 85px 0px 10px;
 }
+@media screen and (max-width: 480px) {
+  li a {
+    float: none;
+    width: 100%;
+  }
+}
 
 /* Slideshow Styles */
 .slideshow-container {
@@ -117,6 +123,11 @@ h2{
 	text-align: center;
 	font-size: 24px;
 }
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size:6px;
+  }
+}
 h3 {
 	color: #452d0e;
 	font-family: "Georgia",serif;
@@ -164,6 +175,10 @@ h4{
 h5 {
 	text-align: center;
 }
+@media screen and (max-width: 480px) {
+  tr td {
+  }
+}
 /* Form Styles */
 footer {
 	text-align:center;
@@ -178,6 +193,12 @@ footer {
 	border: 2px solid black;
 	padding-top: 20px;
 	margin-top: 1px;
+}
+@media screen and (max-width: 480px) {
+  footer {
+    float: none;
+    width: 100%;
+  }
 }
 a {
 	color: b9992b;
