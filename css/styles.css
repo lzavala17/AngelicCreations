@@ -6,7 +6,10 @@ body {
   background-repeat: repeat;
   background-attachment: fixed;
 }
-
+@media screen and (max-width: 480px) {
+  body {
+  }
+}
 /* Heading Styles */
 header {
 	background-color: #452d0e;
@@ -160,6 +163,10 @@ td p{
 	margin-left: 36px;
 	padding-right:4px;
 	padding-top:8px;
+}
+@media screen and (max-width: 480px) {
+  tr td {
+  }
 }
 h4{
 	font-size: 16px;
