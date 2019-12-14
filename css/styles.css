@@ -213,8 +213,10 @@ a {
 ================ */
 @media only screen and (min-width: 480px){
 	li a {
-		float: left;
+    display: inline-block;
+		vertical-align: left;
 		margin-left: 50px;
+		float: left;
 	}
 	.search-container {
 		margin-left: 50px;
