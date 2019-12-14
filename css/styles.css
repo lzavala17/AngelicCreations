@@ -1,135 +1,139 @@
 /* Body Styles */
 body {
-  background-image: url("https://images-na.ssl-images-amazon.com/images/I/51Vk0QaKkKL._SX466_.jpg");
-  background-position: center;
-  background-size: 35%;
-  background-repeat: repeat;
-  background-attachment: fixed;
-}
-@media screen and (max-width: 480px) {
-  body {
-  }
+	background-image: url("https://images-na.ssl-images-amazon.com/images/I/51Vk0QaKkKL._SX466_.jpg");
+	background-position: center;
+	background-size: 35%;
+	background-repeat: repeat;
+	background-attachment: fixed;
 }
 /* Heading Styles */
 header {
 	background-color: #452d0e;
-	opacity: 0.87;
-	margin: -10px;
-	margin-bottom: -17px;
 	border-bottom: 2px solid #000000;
+	opacity: 0.87;
+	margin-left:-10px;
+	margin-right:-10px;
+	margin-top:-15px;
+}
+.row{
+	padding-left:370px;
+	padding-right:40px;
 }
 .info {
-  font-size: 12px;
-  line-height: 1.6;
-  font-family: "Calibri",sans-serif;
-  font-weight: lighter;
-  color: #ffffff;
-  text-align: left;
+	margin-top:-11px;
+	margin-bottom:-24px;
+	font-size: 12px;
+	line-height: 1.6;
+	font-family: "Calibri",sans-serif;
+	font-weight: lighter;
+	color: #ffffff;
+	text-align: center;
+	position: sticky;
 }
-.cart {
-  text-align: right;
-  color: #ffffff;
-  font-weight: lighter;
-  font-size: 18px;
-  font-family: "Calibri",sans-serif;
-  opacity: 0.87;
+.info1 {
+	text-align:left;
+	margin-left: -400px;
+}
+.info2 {
+	text-align:right;
+	margin-right: -350px;
+	font-size:16px;
+	font-family: "Calibri",sans-serif;
+}
+.info2 a {
+	color: white;
+}
+	/* unvisited link */
+.info2 a:link {
+  color: white;
+}
+
+/* visited link */
+.info2 a:visited {
+  color: #b9992b;
+}
+
+/* mouse over link */
+.info2 a:hover {
+  color: #b9992b;
 }
 i img {
 	width:25px;
 	height:25px;
 	text-align: right;
-	margin-bottom: 8px;
-}
-.logo {
-	text-align: center;
-	margin: -84px 0px -32px 0px;
 }
 
 /* Navigation Styles */
-
 nav {
-background-color: #8b162a;
-text-align: center;
-margin-left:-10px;
-margin-right:-10px;
-margin-top:-16px;
-border-bottom: 2px solid black;
+	background-color: #8b162a;
+	text-align: center;
+	margin-left:-10px;
+	margin-right:-10px;
+	margin-top:-16px;
+	border-bottom: 2px solid black;
 }
 li a {
-float: left;
-color: #b9992b;
-text-align: center;
-padding: 10px 80px;
-text-decoration: none;
-font-size: 20px;
-font-weight: bold;
-position: sticky;
+	float: left;
+	color: #b9992b;
+	text-align: center;
+	padding: 10px 80px;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	position: sticky;
 }
 li a:hover {
-  color: white;
+	color: white;
 }
 .search-container {
-padding: 10px 85px 0px 10px;
+	padding: 10px 85px 0px 10px;
 }
-@media screen and (max-width: 480px) {
-  li a {
-    float: none;
-    width: 100%;
-  }
-}
-
 /* Slideshow Styles */
 .slideshow-container {
-  max-width: 1000px;
-  text-align: center;
-  margin-top: 20px;
-  margin-left: 425px;
-  width: 1000px;
+	max-width: 1000px;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 425px;
+	width: 1000px;
 }
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
 }
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
 }
 .dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
 }
 .active {
-  background-color: #717171;
+	background-color: #717171;
 }
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 3.5s;
-  animation-name: fade;
-  animation-duration: 3.5s;
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 3.5s;
+	animation-name: fade;
+	animation-duration: 3.5s;
 }
-
 /* Section Styles */
-h2{
+h2 {
 	color:white;
 	text-align: center;
 	font-size: 24px;
-}
-@media screen and (max-width: 480px) {
-  h2 {
-    font-size:6px;
-  }
 }
 h3 {
 	color: #452d0e;
@@ -140,7 +144,14 @@ h3 {
 	margin-bottom: -1px;
 	font-size: 24px;
 }
-	section {
+h4{
+    margin-bottom: -3px;
+	margin-left: 500px;
+	color: #452d0e;
+	font-family: "Georgia",serif;
+	font-style: italic;
+}
+section {
 	background-color: #452d0e;
 	word-wrap: normal;
 	opacity: 0.87;
@@ -156,7 +167,7 @@ td {
 tr td {
 	color: white;
 }
-td p{
+td p {
 	background-color:#8b162a;
 	margin-bottom:-5px;
 	margin-top: -5px;
@@ -164,11 +175,7 @@ td p{
 	padding-right:4px;
 	padding-top:8px;
 }
-@media screen and (max-width: 480px) {
-  tr td {
-  }
-}
-h4{
+h4 {
 	font-size: 16px;
 	line-height: 0.4;
 	margin-bottom: -5px;
@@ -197,14 +204,69 @@ footer {
 	padding-top: 20px;
 	margin-top: 1px;
 }
-@media screen and (max-width: 480px) {
-  footer {
-    float: none;
-    width: 100%;
-  }
-}
 a {
 	color: b9992b;
 	font-weight: bold;
 	text-decoration:none;
+}
+/* MEDIA QUERIES
+================ */
+@media only screen and (min-width: 480px){
+	li a {
+		float: left;
+		margin-left: 50px;
+	}
+	.search-container {
+		margin-left: 50px;
+	}
+}
+@media screen and (max-width: 600px) {
+	section{
+		display: inline-block;
+		vertical-align: left;
+		margin-left: 50px;
+		float: left;
+	}
+	.slideshow-container {
+		display: inline-block;
+		vertical-align: left;
+		margin-left: -50px;
+		float:left;
+	}
+	footer {
+		display: inline-block;
+		vertical-align: left;
+		margin-left: 50px;
+	}
+}
+* {
+  box-sizing: border-box;
+}
+/* Create four equal columns that floats next to each other */
+.info {
+  float: left;
+  width: 25%;
+  padding: 20px;
+  }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .info {
+    width: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .info {
+    width: 100%;
+	margin-left:-300px;
+  }
 }

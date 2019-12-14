@@ -1,52 +1,74 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
     <title>Angelic Creations</title>
-    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <header>
+	<div class="row">
 	<div class="info">
       <ul style="list-style-type:none;">
+	  <br><br><br>
+	  <div class="info1">
         <li>402 Glenarm Pl.</li>
         <li>San Antonio, TX 78251</li>
         <li>(210) 683-7011</li>
         <li>angeliccreationssatx@gmail.com</li>
+		</div>
       </ul>
 	  </div>
-	<div class="logo"><img src="images/logo.jpg" alt="Logo" style="width:200px;height:200px;border:0"></div>
-    <div class="cart"> MY ACCOUNT <a href="#"><i class="fas fa-shopping-cart"><img src="images/cart.jpg" alt="CART"></i></a></div>
+	<div class="info"><div class="info3"><img src="images/logo.jpg" alt="Logo" style="width:200px;height:200px;border:0"></div></div>
+    <div class="info"><br><br><br><br><br> <div class="info2"><a href="#" title="My Account dropdown menu">MY ACCOUNT &#x25BE;</a><a href="#" title="Shopping Cart page"><i class="fas fa-shopping-cart"><img src="cart.jpg" alt="CART"></i></a></div></div>
+	</div>
     </header>
+
     <nav>
       <ul style="list-style-type:none;">
-        <li><a href="#">HOME</a>
-            <a href="#">SHOP</a>
-            <a href="#">OCCASIONS</a>
-            <a href="#">ABOUT US</a>
-            <a href="#">CONTACT US</a>
+        <li><a href="#"title="Home page">HOME</a>
+            <a href="#" title="Shopping page">SHOP</a>
+            <a href="#" title="Occassions page">OCCASIONS &#x25BE;</a>
+            <a href="#" title="About Us page">ABOUT US</a>
+            <a href="#" title="Contact Us page">CONTACT US</a>
 			<div class="search-container">
 			<form action="/action_page.php">
-              <input type="text" placeholder="Search.." name="search">
-              <button type="submit" style="width:5px;height:5px"><i class="fa fa-search"></i></button>
+              <label for="SearchBox"></label><input type="text" placeholder="Search.." name="search" id="mainSearchEngine">
+              <button type="submit"><i class="fas fa-search"><img src="images/search-solid.svg" alt="Search" style="width:12px;height:12px"></i></button>
 			</form>
             </li>
       </ul>
     </nav>
+	<h4>Angelic Creations</h4>
 	<div class="slideshow-container">
 
 	<div class="mySlides fade">
 	<img src="images/flowers.png" alt="Yellow Bouquet" style="width:800px;height:400px;border:2">
-	<div class="text">Mix A</div>
 	</div>
 
 	<div class="mySlides fade">
   <img src="images/flowers2.jpg" alt="Puppy Bouquet" style="width:800px;height:400px;border:2">
-  <div class="text">Mix B</div>
 	</div>
 
 	<div class="mySlides fade">
   <img src="images/funeral.jpg" alt="Funeral Set" style="width:800px;height:400px;border:2">
-  <div class="text">Mix C</div>
 	</div>
 
 	</div>
@@ -82,9 +104,9 @@
 	  <section>
         <table style="width:100%" text-align="center">
           <tr>
-            <td><img src="images/flowers.png" alt="Yellow Bouquet" style="width:200px;height:200px;border:2px solid white"></td>
-            <td><img src="images/flowers2.jpg" alt="Puppy Bouquet" style="width:200px;height:200px;border:2px solid white"></td>
-            <td><img src="images/funeral.jpg" alt="Funeral Set" style="width:200px;height:200px;border:2px solid white"></td>
+            <td><a href="#" title="Yellow Product Description page"><img src="images/flowers.png" alt="Yellow Bouquet" style="width:200px;height:200px;border:2px solid white"></a></td>
+            <td><a href="#" title="Puppy Product Description page"><img src="images/flowers2.jpg" alt="Puppy Bouquet" style="width:200px;height:200px;border:2px solid white"></a></td>
+            <td><a href="#" title="Funeral Product Description page"><img src="images/funeral.jpg" alt="Funeral Set" style="width:200px;height:200px;border:2px solid white"></a></td>
           </tr>
           <tr>
             <td><p style="width:200px;height:25px;font-style:italic"><b>YELLOW BOUQUET</b></p></td>
@@ -97,9 +119,9 @@
             <td><p style="width:200px;height:25px">$30.00</p></td>
           </tr>
 		  <tr>
-            <td><img src="images/flowers.png" alt="Yellow Bouquet" style="width:200px;height:200px;border:2px solid white;margin-top:30px"></td>
-            <td><img src="images/flowers2.jpg" alt="Puppy Bouquet" style="width:200px;height:200px;border:2px solid white;margin-top:30px"></td>
-            <td><img src="images/funeral.jpg" alt="Funeral Set" style="width:200px;height:200px;border:2px solid white;margin-top:30px"></td>
+            <td><a href="#" title="Yellow Product Description page"><img src="images/flowers.png" alt="Yellow Bouquet" style="width:200px;height:200px;border:2px solid white"></a></td>
+            <td><a href="#" title="Puppy Product Description page"><img src="images/flowers2.jpg" alt="Puppy Bouquet" style="width:200px;height:200px;border:2px solid white"></a></td>
+            <td><a href="#" title="Funeral Product Description page"><img src="images/funeral.jpg" alt="Funeral Set" style="width:200px;height:200px;border:2px solid white"></a></td>
           </tr>
           <tr>
             <td><p style="width:200px;height:25px;font-style:italic"><b>YELLOW BOUQUET</b></p></td>
@@ -112,9 +134,9 @@
             <td><p style="width:200px;height:25px">$30.00</p></td>
           </tr>
 		  <tr>
-            <td><img src="images/flowers.png" alt="Yellow Bouquet" style="width:200px;height:200px;border:2px solid white;margin-top:30px"></td>
-            <td><img src="images/flowers2.jpg" alt="Puppy Bouquet" style="width:200px;height:200px;border:2px solid white;margin-top:30px"></td>
-            <td><img src="images/funeral.jpg" alt="Funeral Set" style="width:200px;height:200px;border:2px solid white;margin-top:30px"></td>
+            <td><a href="#" title="Yellow Product Description page"><img src="images/flowers.png" alt="Yellow Bouquet" style="width:200px;height:200px;border:2px solid white"></a></td>
+            <td><a href="#" title="Puppy Product Description page"><img src="images/flowers2.jpg" alt="Puppy Bouquet" style="width:200px;height:200px;border:2px solid white"></a></td>
+            <td><a href="#" title="Funeral Product Description page"><img src="images/funeral.jpg" alt="Funeral Set" style="width:200px;height:200px;border:2px solid white"></a></td>
           </tr>
           <tr>
             <td><p style="width:200px;height:25px;font-style:italic"><b>YELLOW BOUQUET</b></p></td>
@@ -156,25 +178,20 @@
     </section>
     <footer>
         <form action="/action_page.php">
-          Name:<br>
-          <input type="text" name="name" style="width:200px;height:25px;border:0">
+          <label for="Question1">Name:<br></label><input type="text" name="Name" id="nameResponse" style="width:200px;height:25px;border:0">
           <br>
-          Email:<br>
-          <input type="text" name="email" style="width:200px;height:25px;border:0">
+          <label for="Question2">Email:<br></label><input type="text" name="Email" id="emailResponse" style="width:200px;height:25px;border:0">
           <br>
-          Phone Number:<br>
-          <input type="text" name="phonenumber" style="height:25; width:200;border:0">
+          <label for="Question3">Phone Number:<br></label><input type="text" name="phoneNumber" id="phoneNumberResponse" style="height:25; width:200;border:0">
           <br>
-          Date:<br>
-          <input type="text" name="date" style="width:200px;height:25px;border:0">
+          <label for="Question4">Date:<br></label><input type="text" name="Date" id="dateResponse" style="width:200px;height:25px;border:0">
           <br>
-          Comments/Request:<br>
-          <input type="text" name="comments" style="width:400px;height:100px;border:0">
+          <label for="Question5">Comments/Request:<br></label><input type="text" name="Comments" id="commentResponse" style="width:400px;height:100px;border:0">
           <br><br>
-          <input type="submit" value="Submit">
+          <label for="Enter"></label><input type="submit" name="Submit" id="submitButton" value="Submit">
         </form>
         <br><br>
-        <p> <a href="facebook.com"><img src="images/facebook.jpg" alt="Facebook" style="width:42px;height:42px;border:0"> FACEBOOK</a>      <a href="google.com"><img src="images/google.png" alt="Google" style="width:42px;height:42px;border:0"> GOOGLE</a>
+        <p> <a href="facebook.com" title="Facebook external link"><img src="images/facebook.jpg" alt="Facebook" style="width:42px;height:42px;border:0"> FACEBOOK</a>      <a href="google.com" title="Google external link"><img src="images/google.png" alt="Google" style="width:42px;height:42px;border:0"> GOOGLE</a>
         </p>
     </footer>
 
