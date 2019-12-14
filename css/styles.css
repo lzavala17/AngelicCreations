@@ -204,14 +204,14 @@ footer {
 	padding-top: 20px;
 	margin-top: 1px;
 }
-p a {
+a {
 	color: b9992b;
 	font-weight: bold;
 	text-decoration:none;
 }
 /* MEDIA QUERIES
 ================ */
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 480px){
 	li a {
     display: inline-block;
 		vertical-align: left;
